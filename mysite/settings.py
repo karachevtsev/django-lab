@@ -79,7 +79,12 @@ DATABASES = {
         'PASSWORD': 'artem',
         'HOST': 'localhost',
         'PORT': '3306',
-    }
+        'TEST': {
+            'CHARSET': 'utf8',
+            'COLLATION': 'utf8_general_ci',
+        }
+    },
+
 }
 
 # Password validation
